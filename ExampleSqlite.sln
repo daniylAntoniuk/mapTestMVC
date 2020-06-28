@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExampleSqlite", "ExampleSqlite\ExampleSqlite.csproj", "{315BDDC7-FE3A-4515-8C5A-6E9D18E2DA86}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Septik.Entities", "Septik.Entities\Septik.Entities.csproj", "{12BC3DE0-9EB7-472A-AEEB-7F422836E5A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Septik.Web", "Septik.Web\Septik.Web.csproj", "{C11EB014-36B3-42E3-B231-08E17FE0794D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{315BDDC7-FE3A-4515-8C5A-6E9D18E2DA86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{315BDDC7-FE3A-4515-8C5A-6E9D18E2DA86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{315BDDC7-FE3A-4515-8C5A-6E9D18E2DA86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{315BDDC7-FE3A-4515-8C5A-6E9D18E2DA86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12BC3DE0-9EB7-472A-AEEB-7F422836E5A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12BC3DE0-9EB7-472A-AEEB-7F422836E5A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12BC3DE0-9EB7-472A-AEEB-7F422836E5A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12BC3DE0-9EB7-472A-AEEB-7F422836E5A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C11EB014-36B3-42E3-B231-08E17FE0794D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C11EB014-36B3-42E3-B231-08E17FE0794D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C11EB014-36B3-42E3-B231-08E17FE0794D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C11EB014-36B3-42E3-B231-08E17FE0794D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {617B777F-161D-42C5-9B9F-2F3E593BBB30}
+	EndGlobalSection
+EndGlobal

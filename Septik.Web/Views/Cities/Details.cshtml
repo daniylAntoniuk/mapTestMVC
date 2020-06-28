@@ -1,0 +1,47 @@
+﻿@model Septik.Web.Models.CityDetailsVM
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>@Model.Name</h1>
+
+<div>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-6">
+            <img src="@Model.Image" width="400" alt="Фото" />
+        </dt>
+        <dd class="col-sm-6">
+            <h2>На карті</h2>
+            <div id="map" class="w-100 h-100"></div>
+        </dd>
+
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-action="Index">Back to List</a>
+</div>
+
+
+@section Scripts {
+
+
+    <script>
+        var lat = @Model.Lat, lng = @Model.Lng;
+        
+        var map = L.map('map').setView([lat, lng], 16);
+
+        var marker = L.marker([lat, lng],
+            { title: "MyPoint", alt: "The Big I", draggable: true }).addTo(map)
+            .bindPopup('@Model.Name');
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+
+            //.openPopup();
+    </script>
+}

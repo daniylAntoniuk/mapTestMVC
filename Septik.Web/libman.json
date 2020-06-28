@@ -1,0 +1,25 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "provider": "unpkg",
+      "library": "leaflet@1.6.0",
+      "destination": "wwwroot/lib/leaflet/",
+      "files": [
+        "dist/leaflet.js",
+        "dist/leaflet.css",
+        "dist/images/*"
+      ]
+    },
+    {
+      "provider": "unpkg",
+      "library": "cropperjs@1.5.7",
+      "destination": "wwwroot/lib/cropperjs/",
+      "files": [
+        "dist/cropper.min.css",
+        "dist/cropper.min.js"
+      ]
+    }
+  ]
+}
